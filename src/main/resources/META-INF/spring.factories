@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+net.hlinfo.utils.spring.configure.HlinfoMybatisDaoAutoConfiguration,\
+net.hlinfo.utils.spring.configure.hlinfoRedisAutoConfigure
