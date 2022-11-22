@@ -8,6 +8,8 @@ hlinfo-utils-spring-boot-starter是为了自动注入Mybatis和redis的@Bean。
 
 >请前往Maven中央库查找最新版本
 
+>无需再引入hlinfo-utils和hlinfo-mybatis-dao的包
+
 ```xml
 <dependency>
   <groupId>net.hlinfo</groupId>
