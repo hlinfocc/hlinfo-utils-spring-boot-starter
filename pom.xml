@@ -14,8 +14,7 @@
           <url>https://github.com/hlinfocc/hlinfo-utils-spring-boot-starter/blob/master/LICENSE</url>
           <distribution>repo</distribution>
       </license>
-  </licenses>
- 
+  </licenses> 
     <!--scm信息-->
     <scm>
         <url>https://github.com/hlinfocc/hlinfo-utils-spring-boot-starter</url>
