@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.hlinfo</groupId>
   <artifactId>hlinfo-utils-spring-boot-starter</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   
   <name>hlinfo-utils-spring-boot-starter</name>
    <url>https://github.com/hlinfocc/hlinfo-utils-spring-boot-starter</url>
@@ -42,7 +42,7 @@
 	  <jackson.version>2.14.1</jackson.version>
 	  <spring.boot.starter.data.redis.version>2.7.7</spring.boot.starter.data.redis.version>
 	  <configuration.processor.version>2.6.1</configuration.processor.version>
-	  <hlinfo.mybatis.dao.version>1.1.1</hlinfo.mybatis.dao.version>
+	  <hlinfo.mybatis.dao.version>1.1.2</hlinfo.mybatis.dao.version>
   </properties>
   
   <dependencies>
