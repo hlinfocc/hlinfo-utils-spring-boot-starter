@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.hlinfo</groupId>
   <artifactId>hlinfo-utils-spring-boot-starter</artifactId>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   
   <name>hlinfo-utils-spring-boot-starter</name>
    <url>https://github.com/hlinfocc/hlinfo-utils-spring-boot-starter</url>
@@ -42,7 +42,7 @@
 	  <jackson.version>2.14.1</jackson.version>
 	  <spring.boot.starter.data.redis.version>2.7.7</spring.boot.starter.data.redis.version>
 	  <configuration.processor.version>2.6.1</configuration.processor.version>
-	  <hlinfo.mybatis.dao.version>1.1.5</hlinfo.mybatis.dao.version>
+	  <hlinfo.mybatis.dao.version>1.1.7</hlinfo.mybatis.dao.version>
   </properties>
   
   <dependencies>
@@ -147,16 +147,15 @@
       </plugin>
       <!--staging puglin,用于自动执行发布阶段(免手动)-->
       <plugin>
-          <groupId>org.sonatype.plugins</groupId>
-          <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>1.6.13</version>
+          <groupId>org.sonatype.central</groupId>
+          <artifactId>central-publishing-maven-plugin</artifactId>
+          <version>0.7.0</version>
           <extensions>true</extensions>
           <configuration>
-              <serverId>ossrh</serverId>
-              <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-              <autoReleaseAfterClose>true</autoReleaseAfterClose>
+             <publishingServerId>central</publishingServerId>
+             <autoPublish>true</autoPublish>
           </configuration>
-      </plugin>
+        </plugin>
       <!-- release plugin,用于发布到release仓库部署插件 -->
       <plugin>
           <groupId>org.apache.maven.plugins</groupId>
